@@ -8,11 +8,13 @@
 </head>
 
 <body>
+    <h1>Daily Cat Fact</h1>
+    <p id="cat-fact">please work this time</p>
 
     <script>
         async function getFact() {
             try {
-                const res = await fetch('/cat'); // your Flask server
+                const res = await fetch('/cat');
                 const data = await res.json();
                 document.getElementById('cat-fact').innerText = data.fact;
             } catch (err) {
