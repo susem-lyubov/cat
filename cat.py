@@ -13,6 +13,14 @@ catFetched = None
 def home():
     return send_file("cat.html")
 
+@app.route("/info")
+def info():
+    return send_file("catInfo.html")
+
+@app.route("/faq")
+def faq():
+    return send_file("catfaq.html")
+
 @app.route("/cat")
 
 def cat():
