@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, send_file
+from flask import Flask, render_template, jsonify
 import datetime
 import requests
 import os
@@ -11,15 +11,15 @@ catFetched = None
 
 @app.route("/")
 def home():
-    return send_file("cat.html")
+    return render_template("cat.html")
 
 @app.route("/info")
 def info():
-    return send_file("catInfo.html")
+    return render_template("catInfo.html")
 
 @app.route("/faq")
 def faq():
-    return send_file("catfaq.html")
+    return render_template("catfaq.html")
 
 @app.route("/cat")
 
