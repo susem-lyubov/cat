@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="EN">
 <head>
-    <title>Cat</title>
+    <title>Cat FAQs</title>
     <meta charset="utf-8" />
     <link href="static/catReset.css" rel="stylesheet" />
     <link href="static/cat.css" rel="stylesheet" />
@@ -21,24 +21,10 @@
         </nav>
     </header>
 
+    <article>
+        
+    </article>
 
-    <h2>Daily Cat Fact</h2>
-    <p id="cat-fact">please work this time</p>
-
-    <script>
-        async function getFact() {
-            try {
-                const res = await fetch('/cat');
-                const data = await res.json();
-                document.getElementById('cat-fact').innerText = data.fact;
-            } catch (err) {
-                console.error('Error getting daily cat fact:', err);
-                document.getElementById('cat-fact').innerText = "Failed to load cat fact.";
-      }
-    }
-    
-    getFact();
-    </script>
 
 </body>
 
