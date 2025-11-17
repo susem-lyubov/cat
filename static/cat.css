@@ -37,14 +37,15 @@ nav.navi li {
 nav.navi a {
     display: block;
     text-align: center;
-    background-color: #03A9F4;
+    background-color: #BDBDBD;
     font-size: 1.1em;
     color: black;
 }
 
 /* Change the bg color of a link when it is hovered over */
 nav.navi a:hover, nav.navi a:active {
-    background-color: #BDBDBD;
+    color: #BBDEFB;
+    background-color: #212121;
 }
 
 h1 {
