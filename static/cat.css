@@ -4,6 +4,14 @@ html {
    font-family:Arial, Helvetica, sans-serif
 }
 
+.catwrap {
+    background-color: #BBDEFB;
+    width: 95%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 /* Style for page body */
 body {
     margin-left: auto;

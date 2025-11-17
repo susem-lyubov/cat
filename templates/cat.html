@@ -9,49 +9,51 @@
 </head>
 
 <body>
-    <header>
-        <a href="{{ url_for('home') }}">
-            <img src="static/catPicture.png" alt="cat" />
-        </a>
+    <div class="catwrap">
+        <header>
+            <a href="{{ url_for('home') }}">
+                <img src="static/catPicture.png" alt="cat" />
+            </a>
 
-        <nav class="navi">
-            <ul>
-                <li><a href="{{ url_for('home') }}">Home</a></li>
-                <li><a href="{{ url_for('info') }}">Information</a></li>
-                <li><a href="{{ url_for('faq') }}">FAQs</a></li>
-            </ul>
-        </nav>
-    </header>
+            <nav class="navi">
+                <ul>
+                    <li><a href="{{ url_for('home') }}">Home</a></li>
+                    <li><a href="{{ url_for('info') }}">Information</a></li>
+                    <li><a href="{{ url_for('faq') }}">FAQs</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <article>
-        <h2>Cat Fact Of The Day</h2>
-        <p id="cat-fact">please work this time</p>
+        <article>
+            <h2>Cat Fact Of The Day</h2>
+            <p id="cat-fact">please work this time</p>
 
-        <script>
-            async function getFact() {
-                try {
-                    const res = await fetch('/cat');
-                    const data = await res.json();
-                    document.getElementById('cat-fact').innerText = data.fact;
-                } catch (err) {
-                    console.error('Error getting daily cat fact:', err);
-                    document.getElementById('cat-fact').innerText = "Failed to load cat fact.";
-        }
-        }
-        
-        getFact();
-        </script>
+            <script>
+                async function getFact() {
+                    try {
+                        const res = await fetch('/cat');
+                        const data = await res.json();
+                        document.getElementById('cat-fact').innerText = data.fact;
+                    } catch (err) {
+                        console.error('Error getting daily cat fact:', err);
+                        document.getElementById('cat-fact').innerText = "Failed to load cat fact.";
+            }
+            }
+            
+            getFact();
+            </script>
 
-        <h1>About The Site</h1>
+            <h1>About The Site</h1>
 
-        <p><br />This website provides a detailed overview of domestic cats, and is a great resource 
-            for anyone working with cats or looking to adopt a cat. On the information page, you can 
-            find a very detailed explanation of how cats work, and why they behave the way that they 
-            do. Also, be sure to check out the FAQ page, as there are answers to many questions people 
-            have about cats.
-        </p>
+            <p><br />This website provides a detailed overview of domestic cats, and is a great resource 
+                for anyone working with cats or looking to adopt a cat. On the information page, you can 
+                find a very detailed explanation of how cats work, and why they behave the way that they 
+                do. Also, be sure to check out the FAQ page, as there are answers to many questions people 
+                have about cats.
+            </p>
 
-    </article>
+        </article>
+    </div>
 </body>
 
 </html>
