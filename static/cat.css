@@ -33,6 +33,6 @@ nav.navi a {
     color: black;
 }
 
-nav.navi a:hover, 
-nav.navi a:active {
+nav.navi a:hover, nav.navi a:active {
     background-color: #BBDEFB;
+}
