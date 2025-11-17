@@ -41,3 +41,11 @@ nav.navi a {
 nav.navi a:hover, nav.navi a:active {
     background-color: #BBDEFB;
 }
+
+h1 {
+    font-size: 1.4em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
