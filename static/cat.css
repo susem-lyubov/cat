@@ -14,7 +14,7 @@ body {
 }
 
 /* Style for large cat image at the top of page */
-body > header > img {
+a > img {
     display: block;
     width: 100%;
 }
@@ -40,8 +40,4 @@ nav.navi a {
 /* Change the bg color of a link when it is hovered over */
 nav.navi a:hover, nav.navi a:active {
     background-color: #BBDEFB;
-}
-
-.catimg {
-    text-align: center;
 }
