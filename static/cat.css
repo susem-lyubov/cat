@@ -6,6 +6,7 @@ html {
 
 /* Style for page body */
 body {
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
     max-width: 960px;
@@ -39,7 +40,7 @@ nav.navi a {
 
 /* Change the bg color of a link when it is hovered over */
 nav.navi a:hover, nav.navi a:active {
-    background-color: #BBDEFB;
+    background-color: #BDBDBD;
 }
 
 h1 {
