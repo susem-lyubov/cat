@@ -16,6 +16,7 @@ body {
 
 article {
     padding: 10px 15px;
+    clear: both;
 }
 
 html, body {
