@@ -1,8 +1,10 @@
+/* Style for entire page */
 html {
    background-color: #2196F3;
    font-family:Arial, Helvetica, sans-serif
 }
 
+/* Style for page body */
 body {
     margin-left: auto;
     margin-right: auto;
@@ -11,11 +13,13 @@ body {
     width: 95%;
 }
 
+/* Style for large cat image at the top of page */
 body > header > img {
     display: block;
     width: 100%;
 }
 
+/* Style for the three option navigation bar */
 body > header > nav.navi li {
     width: 33.33%;
 }
@@ -33,6 +37,11 @@ nav.navi a {
     color: black;
 }
 
+/* Change the bg color of a link when it is hovered over */
 nav.navi a:hover, nav.navi a:active {
     background-color: #BBDEFB;
+}
+
+.catimg {
+    text-align: center;
 }
