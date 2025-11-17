@@ -1,12 +1,12 @@
 /* Style for entire page */
 html {
-   background-color: #2196F3;
+   background-color: #1976D2;
    font-family:Arial, Helvetica, sans-serif
 }
 
 /* Style for page body */
 body {
-    background-color: white;
+    background-color: #2196F3;
     margin-left: auto;
     margin-right: auto;
     max-width: 960px;
@@ -37,7 +37,7 @@ nav.navi li {
 nav.navi a {
     display: block;
     text-align: center;
-    background-color: #1976D2;
+    background-color: #03A9F4;
     font-size: 1.1em;
     color: black;
 }
