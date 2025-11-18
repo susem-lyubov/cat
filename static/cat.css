@@ -20,7 +20,7 @@ article {
 }
 
 html, body {
-    height: 100%;
+    min-height: 100%;
 }
 
 /* Style for large cat image at the top of page */
