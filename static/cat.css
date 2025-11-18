@@ -74,7 +74,9 @@ h2 {
 }
 
 .text {
-    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    padding-right: 26px;
 }
 
 @media (max-width: 700px) {
