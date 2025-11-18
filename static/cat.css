@@ -63,7 +63,7 @@ h2 {
     display: flex;
 }
 
-text, image {
+.text, .image {
     flex: 1;
 }
 
