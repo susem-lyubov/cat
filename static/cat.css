@@ -73,6 +73,10 @@ h2 {
     object-fit: contain;
 }
 
+.text {
+    padding-right: 25px;
+}
+
 @media (max-width: 700px) {
     .scottish {
         flex-direction: column;
