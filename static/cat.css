@@ -1,11 +1,9 @@
-/* Style for entire page */
 html {
    background-color: #1976D2;
    font-family:Arial, Helvetica, sans-serif;
    min-height: 100%;
 }
 
-/* Style for page body */
 body {
     background-color: #2196F3;
     margin-left: auto;
@@ -21,13 +19,12 @@ article {
     clear: both;
 }
 
-/* Style for large cat image at the top of page */
+/* Style for large cat image at top of page */
 a > img {
     display: block;
     width: 100%;
 }
 
-/* Style for the three option navigation bar */
 body > header > nav.navi li {
     width: 33.33%;
 }
